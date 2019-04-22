@@ -3,7 +3,6 @@
 
 def key_for_min_value(name_hash)
   lowest_key = nil
-  lowest_val = nil
   name_hash.each { |key, value|
     if lowest_val > value || lowest_val == nil
       lowest_val = value
